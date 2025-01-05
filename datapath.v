@@ -12,7 +12,7 @@ module datapath(
 	output wire equalD,stallD,
 	output wire[5:0] opD,functD,
 	output wire[31:0] instrD,
-	input wire ivalidD,  //57条
+	input wire invalidD,  //57条
 	//execute stage
 	input wire memtoregE,
 	input wire alusrcE,regdstE,
